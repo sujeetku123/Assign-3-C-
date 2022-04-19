@@ -35,7 +35,7 @@ namespace ConsoleApp1
             m.CalculateSalary();
             m.Mprint();
 
-            Console.Write("Enter the salary of an Employee to find Tele and Tour Allowances:");
+            Console.Write("Enter the salary of Emp to find Tele and Tour Allowances:");
 
             MarketingExecutive me = new MarketingExecutive(Convert.ToDouble(Console.ReadLine()));
             me.Grosssalary();
